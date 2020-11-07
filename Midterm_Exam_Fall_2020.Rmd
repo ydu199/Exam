@@ -96,7 +96,7 @@ pwr.f2.test(u =2, v =NULL , f2 =0.5 , sig.level= 0.05 , power =0.8 )
 ```
 From the first calculation, f2=3.2 as using 80% power and sample size n=7. The effect size is very large.
 
-From the second calculation, we can obtain that n=20 with d=0.5 (medium effect size), so it shows that the sample size 
+From the second calculation, we can obtain that n=23 with d=0.5 (medium effect size), so it shows that the sample size 
 n=7 is not enough.
 Effect size is not the same as the statistical significance.
 
