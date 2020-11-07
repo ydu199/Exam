@@ -195,5 +195,5 @@ and male. Adding more predictors is possible.
 ### Comments or questions
 If you have any comments or questions, please write them here.
 
-I think this is the first time I analyze on my own data and on a very small data, I am very happy to to discover the
+This is the first time I analyze on my own data and on a very small data, I am very happy to to discover the
 limitation and future opportunity of my own data through the data analysis.
