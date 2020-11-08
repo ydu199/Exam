@@ -115,15 +115,14 @@ Model2= stan_glm(log(Total.Spending)~drinks+cup, data=Mkt, refresh=0)
 print(Model2,2)
 
 yrep_1 <- posterior_predict(Model1)
-ppc_dens_overlay(Mkt$drinks,yrep_1[1:100,])
+ppc_dens_overlay(Mkt$Total.Spending,yrep_1[1:100,])
 
 yrep_2 <- posterior_predict(Model2)
-ppc_dens_overlay(Mkt$drinks, yrep_2[1:100,])
+ppc_dens_overlay(log(Mkt$Total.Spending), yrep_2[1:100,])
 ```
 Compare model 1 and model 2:
 The uncertainties in parameters for model 2 are smaller.
-Based on the posterior predictive checks, model 2 shows a better fit than model 1 though both models do not perform a good fit. 
-My choice is Model 2 and I will check validations in the next step to further confirm my thought.
+AND based on the posterior predictive checks, my choice is Model 2 and I will check validations in the next step to further confirm my thought.
 
 Error model: Gaussian
 Link: identity
